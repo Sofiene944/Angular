@@ -1,0 +1,156 @@
+<nav class="navbar navbar-primary bg-primary">
+</nav>
+<div>
+    <div>
+        <h1 class="title">Results</h1>
+    </div>
+
+    <div class="description">
+        <h4 class="mt-4">Finding for file : {{selectedFile}}</h4>
+
+    </div>
+</div>
+
+<div class="container">
+    <p class="p1"> Security vendors
+        flagging this as malicious</p>
+    <div class="circle1"></div>
+    <div class="circle2">
+        <h5 class="circleDesc">?/55</h5>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="accordion" class="cards">
+
+    <div class="card">
+        <div class="card-header shadow ">
+            <h3>Toolx</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, laboriosam. Ipsam sint sunt nihil,
+                eveniet magnam consectetur laudantium aut est odit unde officiis, facere veritatis sed, reiciendis
+                ex amet architecto.</p>
+
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card-header  ">
+            <div ><h3>Toolx</h3></div>
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                <mat-icon (click)="click()">{{icon  ? 'keyboard_arrow_down' : 'keyboard_arrow_up' }}</mat-icon>
+              </a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, laboriosam. Ipsam sint sunt nihil,
+                eveniet magnam consectetur laudantium aut est odit unde officiis, facere veritatis sed, reiciendis
+                ex amet architecto.</p>
+        <div id="collapseOne" class="collapse hide" data-parent="#accordion">
+            <div class="card-body" >
+              Lorem ipsum..
+            </div>
+          </div>
+        </div>
+
+
+
+    </div>
+    <div class="card">
+        <div class="card-header shadow ">
+            <h3>Toolx</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, laboriosam. Ipsam sint sunt nihil,
+                eveniet magnam consectetur laudantium aut est odit unde officiis, facere veritatis sed, reiciendis
+                ex amet architecto.</p>
+        </div>
+
+    </div>
+
+    <div class="card">
+        <div class="card-header shadow ">
+            <h3>Toolx</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque ullam esse tempora, et sed molestias
+                accusantium alias omnis eaque eveniet facilis incidunt ut earum. Similique sed nostrum odit tempore
+                eos.</p>
+        </div>
+
+    </div>
+
+
+    <mat-expansion-panel expanded='true' hideToggle="true" (click)="click()">
+        <mat-expansion-panel-header >
+          <mat-panel-title>
+           
+            Toolx
+            <mat-icon>{{icon  ? 'keyboard_arrow_down' : 'keyboard_arrow_up' }}</mat-icon>
+          </mat-panel-title>
+  
+        </mat-expansion-panel-header>
+      </mat-expansion-panel>
+<mat-accordion multi="true">
+    <mat-expansion-panel class="card shadow" (click)="click()" expanded='true' hideToggle="true">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Toolx
+                <mat-icon>{{icon  ? 'keyboard_arrow_down' : 'keyboard_arrow_up' }}</mat-icon>
+                
+            </mat-panel-title>
+            <mat-panel-description>
+               
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab non consequatur nisi exercitationem voluptates corporis, aspernatur inventore aperiam, quod fugit repellendus odit eveniet iusto neque aliquid dolores rem quidem quasi!</p>
+    </mat-expansion-panel>
+    
+
+    <mat-expansion-panel class="card shadow" >
+        <mat-expansion-panel-header>
+        
+            <mat-panel-title>
+                Toolx
+            </mat-panel-title>
+       
+        
+            <mat-panel-description>
+                This is a summary of the content
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div>xxxxx</div>
+       <div>yyyyyyyy</div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel class="card shadow" >
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Toolx
+            </mat-panel-title>
+            <mat-panel-description>
+                This is a summary of the content
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa ipsum ex nostrum deleniti voluptate, veniam molestias assumenda eveniet consectetur minus ab similique possimus voluptas iure id quos. Voluptatum, molestiae molestias!
+
+        </p>
+    </mat-expansion-panel>
+</mat-accordion>    
+
+

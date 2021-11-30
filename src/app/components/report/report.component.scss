@@ -1,0 +1,117 @@
+.navbar{
+    height: 50px;
+}
+
+.title { 
+    color:#0068BFff;
+    
+	
+	font-family:Roboto;
+	margin-left: 30px;
+	font-size:60px;
+	letter-spacing: normal;
+    margin-top: 30px;
+}
+
+.description{
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.container{
+    
+    box-shadow:2px 2px 0px rgba(0, 0, 0, 0.25);
+	background-color:rgba(255, 178.00000458955765, 221.00000202655792, 0.2199999988079071);
+	width:250px;
+	height:60px;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+   
+    
+}
+.p1{
+    color:rgba(0, 0, 0, 1);
+	width:194px;
+	height:38px;
+	position:absolute;
+	padding: 3px;
+    margin-left: 10px;
+	font-family:Roboto;
+	text-align:center;
+	font-size:18px;
+	letter-spacing:0.5;
+}
+
+.circle2 { 
+	border-radius:500px;
+	background-color:rgba(110.00000104308128, 197.0000034570694, 255, 1);
+	width:80px;
+	height:80px;
+	position:absolute;
+	right: 225px;
+	top: -6px;
+    align-items: center;
+    
+}
+.circle1 { 
+	border-radius:500px;
+	background-color:rgba(255, 178.00000458955765, 221.00000202655792, 0.2199999988079071);
+	width:92px;
+	height:92px;
+	position:absolute;
+	right: 219px;
+	top: -13px;
+    align-items: center;
+    
+}
+
+.circleDesc{
+align-items: center;
+position: absolute;
+right: 25px;
+top: 30px;
+font-size: 20px;
+font-family: Roboto;
+}
+
+
+.cards{
+	margin-top: 100px;
+}
+
+.card{
+	margin-right: 60px;
+    margin-top: 40px;
+	margin-left: 60px;
+    background-color: #F7F7F7;
+	
+}
+
+.card .btn{
+	position: relative;
+	
+}
+
+
+mat-icon{
+color: rgb(14, 32, 32);
+
+font-size: 50px;
+margin-left:1520px ;
+color: black;
+
+
+
+}
+
+
+.card-body{
+	border-style: none;
+	border-top: none;
+}
+
+
+
+
